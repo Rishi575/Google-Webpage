@@ -3,6 +3,7 @@ body, input, button {
     font-family: arial, sans-serif;
     color: var(--COEmY);
     overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
 }
 /* Header */
 .header{
@@ -137,7 +138,7 @@ textarea.gLFyf {
     background-color: black;
     color: white;
     text-align: center;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     padding: 5px 0;
     position: absolute;
     z-index: 1;
@@ -245,7 +246,7 @@ textarea.gLFyf {
 /* footer */
 .footer{
     background-color:  #f2f2f2;
-    margin-top: 6.9rem;
+    margin-top: 7.5rem;
     height: 48px;
 }
 .country{
@@ -260,7 +261,7 @@ textarea.gLFyf {
 .countryinfo{
     background-color:  #f2f2f2;
     /* margin-top: 7.7rem; */
-    height: 48px;
+    height: 46px;
     padding: 10px 20px;
     border-bottom: 1px solid var(--gS5jXb);
     font-size: 14px;
@@ -323,6 +324,15 @@ textarea.gLFyf {
     display: block;
 }
 /* Theme */
+.light-mode {
+    background-color: white;
+    color: black;
+}
+.dark-mode {
+    background-color: black;
+    color: var(--light-font-color);
+    color: white;
+}
 .tFYjZe {
     align-items: center;
     display: flex;
